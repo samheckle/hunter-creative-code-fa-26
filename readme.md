@@ -131,7 +131,144 @@ I highly encourage searching for extra resources online, as long as you cite you
 | Week 13  | Final Project Check-ins & Group Feedback                                    | Book Zoom 1:1 Session                   |
 | Week 14  | Final Project 1:1s                                                          | Project #5 (Final)                      |
 | Week 15  | Final Project Presentations **last day for resubmissions and extra credit** |                                         |
+## Projects
 
+### Project 1
+
+**Prompt:** Make a sketch that is a self-portrait or illustration of a beloved childhood pet.
+
+**Requirements:**
+- Sketch:
+	- Change the background to be different from default grey.
+    - Include multiple shapes ( remember `rect(), circle(), ellipse(), line()` )
+    - Modify the color and stroke ( `colorMode(), fill(), noFill(), noStroke(), stroke()` )
+    - All of your code should be written inside the `setup()` function
+        - Make sure to delete `background()` from your `draw()`! Or just delete the `draw()`.
+- Write:
+    - Answer the following discussion questions:
+        - How does computation apply to your interests? 
+        - What is your relationship with computer software? What would your relationship look like in an ideal world?
+        - What projects do you imagine making this term?
+    - Write a short paragraph describing your coding process.
+        - What challenges were you not able to figure out? What are you proud of?
+        - Include citations of any resources you referenced (stack overflow, p5 reference, youtube videos, code-generation chat logs)
+
+### Project 2
+
+**Prompt:** Choose a pair of words with opposite meanings, such as “order” and “chaos,” “ascend” and “descend,” “empty” and “full.” Create one sketch to represent the pair of your choice. Consider illustrating the opposite meanings through composition of elements, selection of colors, or any time-based change or movement. Think about what you can do to make your audience sense or think of the two words without having to spell them out.
+
+**Requirements:**
+- Sketch:
+	- Some code should be global (outside of the `setup` and `draw`), some code should be static (inside the `setup`) and some code changes over time (inside the `draw` using `frameCount`).
+    - Manipulate movement manually (with an event) or have some motion based on time (frameCount)
+    - Include variables with appropriate names
+    - Utilize at least one if-statement
+    - Comment your code (-10% deduction for uncommented code)
+    - Tidy your code (-10% deduction for untidied code)
+    - You should _not_ use any of the example phrases (ie order & chaos etc)
+- Documentation:
+    - Describe your process. 
+        - What words did you choose? Why?
+        - What challenges were you not able to figure out? What are you proud of?
+        - Include your ideation process: sketches, moodboard
+        - Include links / citations of any resources you referenced (stack overflow, p5 reference, youtube videos, code-generation chat logs)
+        - See "[How to Write Good Documentation](https://samheckle.github.io/how-to/write-good-documentation)"
+
+### Project 3 (Midterm)
+
+Pick two prompts from this list, but _**you will submit one sketch**_:
+- a sketch that evolves over time
+- a sketch that is a gift to someone you care about
+- a sketch that is a garden
+- a sketch that is a pattern
+
+**Requirements:**
+- Sketch:
+	- _**A single sketch link**_ that fulfills the requirements of at least one of every tool we have learned so far in class:
+        - variable
+        - if-statement
+        - loop (while or for)
+        - functions (with or without parameters)
+    - Comment your code
+    - Tidy your code
+- Documentation:
+    - **Prepare a 5 minute presentation** that follow our [documentation guidelines](https://samheckle.github.io/how-to/write-good-documentation).
+### Project 4
+
+**Prompt:** Create an interactive music video! You will be working on this project with 2-3 people. There will be two deliverables for this project: a proposal and the final sketch.
+
+**Proposal Requirements**
+- Write a brief summary of your proposal for your project in the discussion post.
+- Things to think about:
+	- What type of music will you use?
+	- What are your inspirations?
+- Sketches (or wireframes) of what the intended interaction is and how it will look.
+    - You can embed them in the post or link to a figma/miro/google doc/etc
+    - It can be as lo-fi as you want (eg. using pencil and paper) or you can make a high fidelity prototype in figma, as long as your concept is clear!
+- Write at least 3 questions / areas that you would like feedback on for this project. Think about your project more critically in order to get the most from your feedback session.
+
+**Sketch Requirements:**
+- Use multiple sound elements. This **can** include (but is not required to use all):
+	- Uploaded sound files
+	- Generated sound with oscillators
+	- Microphone input
+- Comment your code 
+- Tidy your code
+- Documentation:
+    - Prepare a 5 minute presentation following our [documentation guidelines](https://samheckle.github.io/how-to/write-good-documentation).
+### Project 5 (Final)
+
+**Prompt:** Pick a p5.js library to research and explore that is related to your interests and develop an interactive art piece that demonstrates what you learned from the library. You can optionally work on this project with a partner. There are three parts to this project: a proposal, final 1:1 meeting, and the final sketch.
+
+https://p5js.org/libraries/directory/
+
+**Proposal Requirements:**
+- Pick 2-3 libraries from the [library directory](https://p5js.org/libraries/directory/) to research based on your interests.
+    - Things to consider when choosing a library:
+        - What does the documentation look like?
+        - Is it well-supported by the p5 community? When was the last time the library was updated?
+        - Are there a lot of tutorials using the library?
+        - Is it an interesting topic to you?
+* Write up 3 potential project ideas using each of the libraries. 
+- Include sketches (or wireframes) of what the intended interaction is and how it will look.
+    - You can embed them in the post or link to a figma/miro/google doc/etc
+    - It can be as lo-fi as you want (eg. using pencil and paper) or you can make a high fidelity prototype in figma, as long as your concept is clear!
+- Write at least 3 questions / areas that you would like feedback on for this project. Think about your project more critically in order to get the most from your feedback session. 
+    - Think of "open" questions: ones that don't have a yes/no answer, but spark a discussion about the framework and themes of your piece. Go beyond "is this project/interaction/mechanic interesting?" and instead "what elements make this project stand out?"
+    
+**Final 1:1 Requirements:**
+- Book the final 1:1 meeting with me to go over the feasibility of your project proposals. 
+
+**Sketch Requirements:**
+- Include all of the technical skills we have learned in this class:
+	- variables
+	- if-statements
+	- loops
+	- data structures
+	- functions
+- Comment your code 
+- Tidy your code
+- Documentation:
+    - Prepare a 5 minute presentation following our [documentation guidelines](https://samheckle.github.io/how-to/write-good-documentation)
+    - You should be able to explain the library you researched, how it works, and how you implemented it.
+## Readings
+
+### Reading #1
+- [The Language of New Media (2001)](https://dss-edit.com/plu/Manovich-Lev_The_Language_of_the_New_Media.pdf) by Lev Manovich: Chapter 1 (pages 19 - 61)
+### Reading #2
+- **Pick one** activity to complete:
+	- [AI Purity Test](https://www.aipuritytest.org/) by [Tina Tarighian](https://tina.zone/index.html)
+	- [How to Train Your Chatbot](https://howtotrainyourchatbot.com/) by [Alia ElKattan](https://www.instagram.com/aliaelkattan/)
+- [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills) Anthropic, 2026
+- [ChatGPT is a Blurry JPEG of the Web](https://archive.is/V8IT4) Ted Chiang, 2023
+### Reading #3
+- [On Domain Naming](https://ambient.institute/domain-naming/) (Amisola, 2023)
+- [Heavy Lies the Digital Cloud](https://www.bylinebyline.com/articles/digital-cloud-memory-technology) (Manges, 2025)
+- [The Enduring Ephemeral](https://arena-attachments.s3.amazonaws.com/14824958/1fa6a1f044fd6eea7bde0f131dc6e268.pdf?1642897047 "Link") (Chun, 2008)
+
+### Reading #4
+- [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) (Vannevar Bush, 1945)
+- [Interfaced](https://loriemerson.net/2020/02/07/interfaced/) - Lori Emerson, 2020
 ## University Policies
 
 ### Academic Integrity
