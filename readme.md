@@ -7,7 +7,7 @@ MDEP 234
 
 | Important Links             |                                                                             |
 | --------------------------- | --------------------------------------------------------------------------- |
-| Office Hours                | Monday 11am - 3pm<br>Thursday 4pm - 6pm <br>                                |
+| Office Hours                | Monday 10am - 1pm<br>Thursday 4pm - 6pm <br>                                |
 |                             | Must be booked in advance [here](https://calendly.com/samanthaheckle/30min) |
 |                             | Alternative times available via email.                                      |
 | Brightspace                 | For assignment due dates and submissions                                    |
