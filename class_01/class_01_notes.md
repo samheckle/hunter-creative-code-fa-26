@@ -12,7 +12,7 @@
 
 ## Syllabus
 
-- Read through the [syllabus]: (and bookmark it! this is also where class notes will live!)
+- Read through the [syllabus](https://github.com/samheckle/hunter-creative-code-fa-26/blob/main/readme.md): https://github.com/samheckle/hunter-creative-code-fa-26/blob/main/readme.md (and bookmark it! this is also where class notes will live!)
 - If I am ever going too fast through _any_ material, please interrupt me!
 - Questions? Comments? Needs? Etc? Send an email. I value open communication more than anything else. If you miss class, expect to be late, or are struggling with an assignment, please let me know.
 ### Expectations and Class Manifesto
@@ -77,6 +77,11 @@ These are *very* specific and targeted prompts, as if you were talking to a tuto
 - software engineer to creative technologist pipeline
 - things you can ask me about: creative coding, software engineering, net art, permacomputing, networks, media theory, portfolio review, resume review, games, keyboards, galleries. ***please ask me about these things in [office hours](https://calendly.com/samanthaheckle/30min)***
 <img src="https://github.com/samheckle/images/blob/main/intro.png?raw=true" style="width=600px">
+
+
+### Introduction survey
+
+Please fill out this [survey](https://forms.cloud.microsoft/r/aWPXrkseXm).
 
 ## Introduction to Code
 
