@@ -81,7 +81,7 @@ These are *very* specific and targeted prompts, as if you were talking to a tuto
 
 ### Introduction survey
 
-Please fill out this [survey](https://forms.cloud.microsoft/r/aWPXrkseXm).
+Complete the "Introduction Survey" in Brightspace Class 1.
 
 ## Introduction to Code
 
