@@ -226,13 +226,13 @@ Similarly to `fill()`, any time we use `translate()`, it will impact every shape
 
 `translate()` allows us to choose where an object is rotated or scaled around. 
 
-![anchor1](https://github.com/samheckle/critical-computation-lab-fa-26/raw/main/images/week2-anchor.png)  
+![anchor1](https://github.com/samheckle/images/blob/main/translation-1.png?raw=true)  
 
-![anchor1](https://github.com/samheckle/critical-computation-lab-fa-26/raw/main/images/week2-anchor1.png)
+![anchor1](https://github.com/samheckle/images/blob/main/translation-2.png?raw=true)
 
-![anchor1](https://github.com/samheckle/critical-computation-lab-fa-26/raw/main/images/week2-anchor2.png)
+![anchor1](https://github.com/samheckle/images/blob/main/translation-3.png?raw=true)
 
-![anchor1](https://github.com/samheckle/critical-computation-lab-fa-26/raw/main/images/week2-anchor3.png)
+![anchor1](https://github.com/samheckle/images/blob/main/translation-4.png?raw=true)
 
 
 ## References and Useful Review
