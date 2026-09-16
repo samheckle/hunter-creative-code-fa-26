@@ -92,6 +92,19 @@ Typical naming convention in JavaScript is to use `camel case`, which just means
 let mySuperCoolVariableThatUsesCamelCase = "nice";
 ```
 
+### Built-in Variables
+
+There are a couple of variables that are built into `p5.js`. We can reference these *after the canvas is created* to get information that `p5.js` allows us access to.
+
+```js
+width // the size of the canvas on the x-axis
+height // the size of the canvas on the y-axis
+mouseX // the position of the mouse on the x-axis
+mouseY // the position of the mouse on the y-axis
+```
+
+See the [search for "variable"](https://p5js.org/search/?term=variable) for a full list.
+
 ### Tutorial: Animation
 
 Everything following this tutorial is specific to p5, but doesn't necessarily require the glossary. But just so you know, everything mentioned in the tutorial is not generic.
@@ -213,13 +226,13 @@ Similarly to `fill()`, any time we use `translate()`, it will impact every shape
 
 `translate()` allows us to choose where an object is rotated or scaled around. 
 
-![anchor1](https://github.com/samheckle/critical-computation-lab-fa-26/raw/main/images/week2-anchor.png)  
+![anchor1](https://github.com/samheckle/images/blob/main/translation-1.png?raw=true)  
 
-![anchor1](https://github.com/samheckle/critical-computation-lab-fa-26/raw/main/images/week2-anchor1.png)
+![anchor1](https://github.com/samheckle/images/blob/main/translation-2.png?raw=true)
 
-![anchor1](https://github.com/samheckle/critical-computation-lab-fa-26/raw/main/images/week2-anchor2.png)
+![anchor1](https://github.com/samheckle/images/blob/main/translation-3.png?raw=true)
 
-![anchor1](https://github.com/samheckle/critical-computation-lab-fa-26/raw/main/images/week2-anchor3.png)
+![anchor1](https://github.com/samheckle/images/blob/main/translation-4.png?raw=true)
 
 
 ## References and Useful Review
