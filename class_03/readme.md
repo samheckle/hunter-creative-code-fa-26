@@ -263,3 +263,4 @@ If you struggled with any of the material this week, please review these coding 
 - [3.2 - making a ball bounce](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/3-conditionals/2-bouncing)
 - [3.3 - else, else if, and, or](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/3-conditionals/3-else-if-and-or)
 - [3.4 - boolean variables](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/3-conditionals/4-boolean)
+- p5.js tutorials: [Variables and Change](https://p5js.org/tutorials/variables-and-change/) | [Conditionals and Interactivity](https://p5js.org/tutorials/conditionals-and-interactivity/)
