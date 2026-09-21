@@ -19,6 +19,7 @@ For every project in this class, you are required to write documentation. Here a
 Each assignment should have well written comments. We can see some best practices:
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript#comments)
 - Coding Train [1.6 - How to Comment Your Code](https://youtu.be/xJcrPJuem5Q?si=Pc95jDSsVnrgfZER)
+
 ## Lecture: Interaction with Conditionals and Events
 
 ### Coding Glossary
