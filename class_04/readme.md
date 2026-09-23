@@ -154,3 +154,4 @@ If you struggled with any of the material this week, please review these coding 
 
 - [5.1 - function basics](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/5-functions/1-basics)
 - [5.2 - parameters and arguments](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/5-functions/2-arguments)
+- p5 Tutorial: [Organizing Code through Functions](https://p5js.org/tutorials/organizing-code-with-functions/)
