@@ -22,28 +22,17 @@ Each assignment should have well written comments. We can see some best practice
 
 ## Lecture: Interaction with Conditionals and Events
 
-### Coding Glossary
+| Coding Glossary                            |                                                                                                                                                                                                                    |                              |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
+| boolean                                    | a type of variable that is either `true` or `false`.                                                                                                                                                               | `let daytime = true`         |
+| comparison operator                        | the operator in a comparison / boolean expression                                                                                                                                                                  | `>`, `>=`, `<`, `<=`         |
+| comparison expression / boolean expression | an expression that evaluates to `true` or `false`, using comparison operators<br><br>(in JavaScript, `truthy` is a [value that is true](https://developer.mozilla.org/en-US/docs/Glossary/Truthy))                 | `5 < 10`                     |
+| conditional statement / `if` statement     | uses `if`, `else if`, and `else` to decide whether a block of code should be run by checking the provided conditional expression. if `true`, executes the code in the `{}`. if `false`, skips the code in the `{}` | `if (5 < 10){}`              |
+| logical operator                           | another operator that allows us to write more than one expression in a code statement                                                                                                                              | `&&`, `\|\|`, `!`            |
+| modulo operator / remainder operator       | *another* operator that calculates the remainder left over when dividing.                                                                                                                                          | `10 % 5 = 0`<br>`10 % 3 = 1` |
 
-<table>
-<tbody>
-<tr><td>boolean</td><td>a type of variable, in reference to boolean expression, can be
 
-`true` or `false`, `0` or `1`
-
-</td></tr>
-<tr><td>comparison operator</td><td>an operator in an expression that evaluates to `true` or `false`
-</td></tr>
-<tr><td>conditional statement</td><td>uses specific phrases
-
-`if`, `else if`, and `else` to choose whether a block of code should be run
-
-uses comparison and logical operators
-
-</td></tr>
-<tr><td>logical operator</td><td>another operator that allows us to write more than one expression in a code statement
-</td></tr>
-</tbody>
-</table>
+### Conditionals: `if`, `else if`, and `else`
 
 #### Comparison Operators
 
@@ -61,46 +50,21 @@ This is a way for us to create environments that have particular logic to the in
 | greater than or equal to | `>=`  |
 | less than                | `<`   |
 | less than or equal to    | `<=`  |
+Comparison expressions evaluate to either `true` or `false`, which is a `Boolean` variable type.
 
-When we use comparison operators in an expression, it would look something like:
-
-```js
-let num = 1;
-
-num < 15; // what does this evaluate to? is it being used anywhere?
-```
-
-Comparison expressions evaluate to either `true` or `false`, which is a `boolean`.
-
+See [MDN Guide: Comparison Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#comparison_operators).
 #### Differences Between `=`, `==` and `===`?
 
 These are all different syntaxes!
 
-<table>
-<tbody>
-<tr><td>assignment</td><td>
-gives a value to a variable
+| Term              | Definition                                              | Syntax | Example                |
+| ----------------- | ------------------------------------------------------- | ------ | ---------------------- |
+| assignment        | gives a value to a variable                             | `=`    | `let x = 10`           |
+| comparison        | loose equality; type and capitalization do *not* matter | `==`   | `if (x == 10){}`       |
+| strict comparison | strict equality; type and capitalization *do* matter    | `===`  | `if ("hi" === "Hi"){}` |
 
-`=`
-
-</td></tr>
-<tr><td>comparison</td><td>checks if two values (like strings or numbers) are equal
-
-`==`
-
-</td></tr>
-
-<tr><td>strict comparison</td><td>checks if two values are even more equal (ie. matches capitalization)
-
-`===`
-
-</td></tr>
-</tbody>
-</table>
-
-So we should know the distinct differences between `=` and `==`, but we should **_never_** be using `===`.
-
-### Conditional Statements
+So we should know the distinct differences between `=` and `==`, but we typically don't use `===` *in this class*. 
+#### Conditional Statements: `if`
 
 A conditional statement is an expression that evaulates to `true` or `false` and does code based on that action. Think of it like a flowchart:
 
@@ -113,16 +77,49 @@ let num = 1;
 
 fill("red");
 
+// if statements ask a question:
+// is num < 7? 
 if (num < 7) {
-  fill("green");
-}
+	// if true, go in here
+	fill("green");
+} 
+// if false, skip
 
 circle(width / 2, height / 2, 30);
 ```
 
 If statements need a different syntax that changes the logic of the flowchart. This is where logical operators come in. We can determine if something has more than one conditional expression, but only if the logical operators are true.
+##### Cascading: `if`, `else if`, `else`
 
-#### Nested Conditional Statements
+With if-statements, we can write branching in our code to make an entire flowchart. So `if` something happens, do this. `otherwise`, do something else.
+
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220830095017/ifelseifflowchart-660x432.png" width="400">
+
+The way this is written in code is using `if`, `else if` and `else`. `if()` and `else if()` need to have a conditional statement inside the parenthesis, but `else` does NOT have a parenthesis because it is a catch all.
+
+```js
+let num = 1;
+
+// is num < 7?
+if (num < 7) {
+	// if true, go here and skip the rest
+	fill("green");
+} 
+// if num < 7 == false, ask next question
+// is num < 10?
+else if (num < 10) { 
+	// if true, go here and skip the rest
+	fill("blue");
+} 
+// if num < 10 == false, ask next question
+// in all other circumstances and all previous questions are false...
+else { 
+	// ...go here
+	fill("red");
+}
+circle(width / 2, height / 2, 60);
+```
+##### Nested Conditional Statements
 
 If statements can be nested, or written inside, of one another.
 
@@ -132,18 +129,22 @@ let num2 = 20;
 
 fill("red");
 
+// is num1 < 7?
 if (num1 < 7) {
-  if (num2 < 25) {
-    fill("green");
-  }
-}
+	// if true, go here
+	// new, unrelated question: if num < 25?
+	if (num2 < 25) {
+		// if true, go here
+	    fill("green");
+	} // if num2 > 25, skip
+} // if num1 > 7, skip
 
 circle(width / 2, height / 2, 30);
 ```
 
 This means that **_both_** comparisons need to evaluate to true in order for us to have a fill of green. But, we can also use a shorthand with the logical operators.
 
-#### Logical Operators
+##### Logical Operators
 
 Logical operators allow us to use more than one expression at a time. This is specific syntax so that we are able to write two operators at once.
 
@@ -207,23 +208,9 @@ let event = false;
 event = !event;
 ```
 
-#### Cascading If-Statements
+For more on `if...else`, see [MDN Reference `if...else`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
-With if-statements, we can cascade them and make an entire flowchart with our code. So `if` something happens, do this. `otherwise`, do something else.
-
-The way this is written in code is using `if`, `else if` and `else`. `if()` and `else if()` need to have a conditional statement inside the parenthesis, but `else` does NOT have a parenthesis because it is a catch all.
-
-```js
-let num = 1;
-if (num < 7) {
-  fill("green");
-} else if (num < 10) {
-  fill("blue");
-} else {
-  fill("red");
-}
-circle(width / 2, height / 2, 60);
-```
+For more on logical operators, see [MDN Guide: Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#logical_operators)
 
 ### Events
 
