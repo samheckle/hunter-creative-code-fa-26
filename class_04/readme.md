@@ -63,6 +63,34 @@ function mousePressed() {
 }
 ```
 
+### Loading Assets
+
+In order to load assets into a sketch, we can use the keywords `async` and `await` in the `setup` function declaration.
+
+Each asset requires 3 steps:
+
+1. A global variable to store the reference to the asset file
+2. `async` in `setup` function declaration + `await` to load the asset file
+3. Using the asset as needed in the code
+
+```js
+// step 1
+let img
+
+// step 2
+async function setup() {
+  	img = await loadImage("./my-image.png");
+  	createCanvas(400, 400);
+}
+
+function draw(){
+	// step 3
+	image(img, 0, 0)
+}
+```
+
+See [`async_await`](https://p5js.org/reference/p5/async_await/)
+
 ### Custom Functions
 
 So far, we have used functions that have only been defined by p5. Even though we are declaring and using `setup()`, `draw()`, and `mousePressed()`, they aren't something we are specifically defining. So, we can [create our own functions](https://p5js.org/reference/p5/function/) too. These still need to be written **_after_** the `draw()`
@@ -126,3 +154,4 @@ If you struggled with any of the material this week, please review these coding 
 
 - [5.1 - function basics](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/5-functions/1-basics)
 - [5.2 - parameters and arguments](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/5-functions/2-arguments)
+- p5 Tutorial: [Organizing Code through Functions](https://p5js.org/tutorials/organizing-code-with-functions/)
