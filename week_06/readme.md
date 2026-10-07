@@ -135,9 +135,9 @@ This adds an element to the end of the array.
 
 **Note**: This is different from p5's `push()` method. p5 has redefined `push()`/`pop()` to store states. `.push()` has different syntax and _must_ be used _on_ an array. So anytime we see the prepending `.`, it likely means it needs to be used on an object.
 
-#### `.slice()`
+#### `.splice()`
 
-To remove elements in an array, we use [`.slice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice). 
+To remove elements in an array, we use [`.splice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice). 
 
 ```js
 // splice(start, deleteCount) 
