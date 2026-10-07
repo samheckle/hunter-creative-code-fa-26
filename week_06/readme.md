@@ -14,7 +14,7 @@
 Questions on loops?
 ## Review: Questions on _anything_ so far?
 
-Add to [this doc](https://cryptpad.fr/doc/#/2/doc/view/GR52yjmdqsIORMLveeYsc18PCZt1+7oqvvGBCxA1+Mo/)
+Add to [this doc](https://cryptpad.fr/doc/#/2/doc/edit/maTy+shIGct+ggx8iZwkkJa1/)
 
 ## Data Structures Part 1: Arrays
 
