@@ -104,7 +104,7 @@ A generated book that every print has a [unique narrative](https://aaronareed.ne
 #### Recent Museum Installations
 
 - Past:
-	- New Museum [*New Humans: Memories of the Future*](www.newmuseum.org/exhibition/new-humans-memories-of-the-future/) (2026)
+	- New Museum [*New Humans: Memories of the Future*](https://www.newmuseum.org/exhibition/new-humans-memories-of-the-future/) (2026)
 - Upcoming: 
 	- Whitney [*Artport: A History of Internet Art*](https://whitney.org/exhibitions/artport-25) (2026)
 
