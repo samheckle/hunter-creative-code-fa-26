@@ -13,7 +13,7 @@
 2. Project #3 due two weeks
 ## Reading Discussion
 
-In breakout rooms, consider the following questions and take notes in [this document](https://cryptpad.fr/doc/#/2/doc/edit/xp2Ckvm4BnXuDRQUcKox3c8n/). We will come together as a class to discuss.
+In breakout rooms, consider the following questions and take notes in the linked brightspace document. We will come together as a class to discuss.
 
 Questions to consider in response to Lev Manovich's [_Language of New Media_](https://dss-edit.com/plu/Manovich-Lev_The_Language_of_the_New_Media.pdf):
 
