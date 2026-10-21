@@ -4,8 +4,7 @@
 1. Review: Loops
 2. Review: Everything
 3. Tutorial: Data Structures Part 1: Arrays
-4. Tutorial: Data Structures Part 2: Objects
-5. Extra Review Materials
+4. Extra Review Materials
 
 ---
 
@@ -203,91 +202,6 @@ for (let currentPet of pets) {
 
 This is a special loop _just for arrays_, that is shorthand for assigning a variable to the index of the current iteration.
 
-## Data Structures Part 2: Objects
-
-An object is a data structure similar to an array, but instead of using `[]`, it uses `{}`. It also is useful when we need unordered data, *or we need to store multiple data types in one variable.*
-
-| New terms |                                                                                        |
-| --------- | -------------------------------------------------------------------------------------- |
-| object    | data structure that holds variables using key-value pairs, uses `{}`, it is unordered. |
-| key       | the `property` we access when we want to retrieve a piece of data from the object.     |
-| value     | similar to the `element` in an array, the data that is stored                          |
-### Declaring an **_Object_**
-
-An Object is a variable type. Objects are an *unordered list* of data written with curly braces (`{}`). 
-
-```js
-let myNewObject = {};
-```
-
-### Initializing an array with **_Values_**
-
-The main difference between objects and arrays is that arrays can only store *one* data type, but objects can hold multiple ones. 
-
-```js
-let myPet = {
-	name: "Oreo",
-	age: 13,
-	isCat: true
-}
-```
-
-### Retrieving a specific **_Value_** with the **_Property_**
-
-Unlike arrays, objects are unordered. But, we can access the named property to retrieve which piece of data we want. 
-
-To access values in an object, we use the object name + `.` + property name
-
-```js
-let myPet = {
-	name: "Oreo",
-	age: 13,
-	isCat: true
-}
-
-// object name + . + property name
-// myPet.name
-// myPet.age
-// myPet.isCat
-print(`${myPet.name}`) // prints "Oreo"
-```
-
-### Unique Attributes of an Object
-
-We can add new `properties` by simply using a new property name. 
-
-```js
-let triangle = {
-    a: 10,
-    b: 15
-}
-triangle.c = 20
-// this automatically adds .c as an accessible property
-// the new object is {a:10, b:15, c:20}
-```
-### Objects and Loops
-
-Just like with arrays, objects also have a special loop.
-
-```js
-const object = { a: 1, b: 2, c: 3 };
-
-for (const property in object) {
-  console.log(`${property}: ${object[property]}`);
-}
-
-// Expected output:
-// "a: 1"
-// "b: 2"
-// "c: 3"
-```
-
-## And that's it!
-
-We know everything about JavaScript! 
-
-...For now. But generally this is the syntax we will be building on for the rest of the semester. After Project #3, we will focus much more heavily on why p5.js is a cool tool. You can review the class notes, or also check out [this JavaScript cheatsheet](https://samheckle.github.io/how-to/write-javascript) for quick references on things you should know about JavaScript. There are some things we did not cover (like different syntax for functions), but most everything else is applicable to your Project #3.
-
 ---
 
 ## Extra Review Materials
@@ -295,10 +209,8 @@ We know everything about JavaScript!
 
 - Coding Train[7.1 What is an array?](https://www.youtube.com/watch?v=VIQoUghHSxU)
 - Coding Train [7.2 Arrays and loops](https://www.youtube.com/watch?v=RXWO3mFuW-I)
-- Coding Train [7.3: Arrays and Objects](https://thecodingtrain.com/tracks/code-programming-with-p5-js/code/7-arrays/3-arrays-objects)
 
 ### Review Documentation (these are textbook definitions)
 
 - MDN [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) loops with arrays
 - MDN [array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- MDN [object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
