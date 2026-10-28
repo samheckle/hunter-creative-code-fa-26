@@ -97,4 +97,4 @@ If your group is gone, consider other things to work on:
 
 ### Review Videos
 
-[Same as last week](../class_08.md#extra-review-materials) if you did not watch already.
+[Same as last week](https://github.com/samheckle/hunter-creative-code-fa-26/blob/main/class_08/readme.md#review-videos) if you did not watch already.
