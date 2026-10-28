@@ -6,6 +6,7 @@
 2. Tutorial: Generating Sound with p5.js
 3. In-Class Work Time with Group
 4. Extra Review Materials
+
 ## Project #4 Feedback Session
 
 In the feedback document in brightspace, follow this framework for feedback:
@@ -81,6 +82,14 @@ let osc = new p5.Oscillator(261, 'triangle');
 ```
 
 The frequency is determined by the note (see above table), and the waveform is the literal sound wave that moves through the air. We are mimicking this electronically.
+
+## Asking for Help
+
+The [p5.js sound library](https://p5js.org/reference/p5.sound/) is ongoing and is actively under construction, if you need help or clarification you can always ask the people working on it!
+
+- Join the [p5.js Discord](https://discord.p5js.org/)
+- Make a post on the forum [Discourse](https://discourse.processing.org/c/p5js/10)
+- Look through the [issues on GitHub](https://github.com/processing/p5.js/issues)
 
 ## In-Class Work Time with Group
 
