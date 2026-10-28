@@ -1,4 +1,4 @@
-# Week 08: 10/21/26
+# Week 08
 
 ## Agenda
 
@@ -121,30 +121,6 @@ To use sound in p5, we use the [p5 sound library](https://p5js.org/reference/p5.
 - https://patatap.com/
 - https://youtu.be/HI1raqxrUdk?si=j01yIjgDCCW91PpI
   - cassie's [sketch](https://editor.p5js.org/cassie/sketches/YZHxZ9ffl) recreating it
-
-## Tutorial: Sound Files and Microphone
-
-### Microphone Input
-
-We can create microphone input using the `new p5.AudioIn()`. This uses the class syntax of `new` to create an instance of the AudioIn class, and we can assign that to a variable. 
-
-***Note: Some browsers hate this, so if you use Firefox or not Chrome, you might need to change the version of your p5 to 0.9.0 in `index.html`***
-
-
-```js
-let mic = new p5.AudioIn()
-```
-
-Once we have created it, we need to start the audio input.
-
-```js
-mic.start()
-```
-
-We can measure the volume of the microphone using
-```js
-mic.getLevel()
-```
 
 ## Extra Review Materials
 ### Review Videos
