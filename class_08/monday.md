@@ -9,8 +9,6 @@
 
 ## Reading Discussion #2
 
-Take notes in the document in Brightspace.
-
 - How are you currently using AI? Do you use AI in your artistic processes now?
 - What are the different approaches you might take in using AI in the future (if you will)?
 - Can technology be biased? Or is it designed that way?
