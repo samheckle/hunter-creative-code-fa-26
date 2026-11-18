@@ -14,6 +14,9 @@
 
 ## Reading Discussion #4
 
+- Consider the relationship you have with your screens. When was the last time you consumed long-form media without an interruption? Was that intentional on your part, or was it part of the design of the experience?
+- What abilities does having access to technology grant you? What does it limit? 
+
 ## Tutorial: Webcam
 
 We can leverage the webcam to do a lot of things inside p5.js, and we can even manipulate individual pixels.
